@@ -55,6 +55,6 @@ while running:
         print(f"als je hier in wilt, moet je nog {heightMissing}cm groeien en {ageMissing} jaar ouder worden!")
         time.sleep(3)
 
-    result = input("Druk op Enter om nog een keer te checken, of X om te stoppen\n\n")
-    if(result.upper() == "X"):
+    result = input("Druk op Enter om nog een keer te checken, of Q om te stoppen\n\n")
+    if(result.upper() == "Q"):
         running = False
